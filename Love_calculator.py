@@ -21,7 +21,7 @@ second_digit_of_calculator = l+o+v+e
 concatenated_names = str(first_digit_of_calculator) + str(second_digit_of_calculator)
 concatenated_names_int = int(concatenated_names)
 
-if concatenated_names_int<10 and concatenated_names_int>90:
+if concatenated_names_int<10 or concatenated_names_int>90:
     print(f"Your score is {concatenated_names_int}, you go together like coke and mentos.")
 elif concatenated_names_int>=40 and concatenated_names_int<=50:
     print(f"Your score is {concatenated_names_int}, you are alright together.")
