@@ -35,8 +35,10 @@ def check_guess_continuation (game_level):
         else:
             if guess < Guess_number:
                 print("Too low.\nGuess again 🙃.")
+                print(f"You have {attempts} remaining to guess the number.")
             elif guess> Guess_number:
                 print("Too high.\nGuess again 🙃.")
+                print(f"You have {attempts} remaining to guess the number.")
             elif guess == Guess_number:
                 Guessed_number = True
                 print("Well done.\nYou made a correct guess 😁.")
