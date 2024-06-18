@@ -14,5 +14,5 @@ if playing == 'y':
         computer_card.append(random_card)
     results_comp = computer_card[0] + computer_card[1]
     print(f"Computer first hand: {computer_card[0]}")
-    print(f"Computer second hand: {computer_card[1]}")
+    # print(f"Computer second hand: {computer_card[1]}")
     print(results_comp)
