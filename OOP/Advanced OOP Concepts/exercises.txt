@@ -1,0 +1,38 @@
+Exercise 1: Constructors and Destructors Instructions:
+
+Create a Person class with attributes like name and age. Implement a constructor (__init__) to initialize these attributes.
+Also, implement a destructor (__del__) method to print a farewell message when an object is deleted.
+Exercise 2: Magic Methods (str and repr) Instructions:
+
+Create a Book class with attributes like title, author, and pages.
+Implement both __str__ and __repr__ magic methods to provide different string representations of the book object.
+Exercise 3: Class Inheritance Instructions:
+
+Create a base class Animal with methods like eat and sleep.
+Create a subclass Dog that inherits from Animal and adds a method bark.
+Create instances of both classes and demonstrate method inheritance.
+
+Exercise 1: Single Inheritance Instruction:
+Create a base class Shape with a method calculate_area().
+Create a subclass Rectangle that inherits from Shape and overrides calculate_area() to calculate the area of a rectangle.
+
+Exercise 2: Multiple Inheritance Instruction:
+Create two parent classes Bird and Mammal with methods fly() and run(), respectively.
+Create a subclass Bat that inherits from both Bird and Mammal and implements fly() and run() methods
+
+Exercise 3: Polymorphism with Duck Typing Instruction:
+Create classes Dog, Cat, and Bird, each with a method make_sound().
+Implement different behaviors for make_sound() in each class.
+Create a function let_them_speak() that takes a list of objects and calls their make_sound() method polymorphically.
+
+Exercise 1: Class Methods for Counting Instances Instruction:
+Create a class Book with a class variable total_books to count the number of book instances created.
+Implement a class method display_total_books() to display the total number of books created.
+
+Exercise 2: Static Method for Utility Calculation Instruction:
+Create a class Calculator with static methods for basic mathematical operations like addition and multiplication.
+Implement static methods add() and multiply() to perform these operations.
+
+Exercise 3: Class Method for Factory Creation Instruction:
+Create a class Person with attributes name and age.
+Implement a class method create_child() to create a new instance representing a child with age set to 0.
